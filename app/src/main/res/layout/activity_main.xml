@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/direction"
+        app:layout_constraintStart_toEndOf="parent" >
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="450dp"
+            app:srcCompat="@drawable/frame" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="518dp"
+            android:text="Kingwood Hospital"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="556dp"
+            android:text="5 Menit (1,5 km)"
+            android:textColor="#B6E13D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="486dp"
+            android:text="Belok Kiri"
+            android:textColor="#B6E13D"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
